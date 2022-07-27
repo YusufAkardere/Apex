@@ -1,0 +1,17 @@
+public class ApexCodes {
+    
+    public static Decimal kmtomile(Decimal km){
+        
+        Decimal mile = km * 0.625;
+        
+        return mile;
+        
+    }
+    public static Decimal miletokm(Decimal mile){
+        Decimal km = mile * 1.6;
+        
+        return km;
+    }
+
+
+}

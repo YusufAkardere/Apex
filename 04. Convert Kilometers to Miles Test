@@ -1,0 +1,17 @@
+@isTest
+public class ApexCodesTest {
+   
+    @isTest
+    public static void testkmtomile(){
+       Decimal result = ApexCodes.kmtomile(120);
+        
+        System.assertEquals(75, result);
+        
+    }
+    @isTest
+    public static void testmiletokm(){
+        Decimal result = ApexCodes.miletokm(80);
+        
+        System.assertEquals(128,result );
+    }
+}

@@ -1,0 +1,14 @@
+public class checkNumber {
+    
+    public static String evenNumber(Integer num){
+
+        if(Math.mod(num, 2)==0){
+            
+            return 'Even Number';
+        }
+        else {
+            return 'Odd Number';
+        }
+    }
+
+}

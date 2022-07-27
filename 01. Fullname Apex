@@ -1,0 +1,9 @@
+public class ApexCodes {
+    public static String  fullName(String firstName, String lastName ){
+        String space =' ';
+        String fullName = firstName + space + lastName;
+        
+        return 'Full name is: ' + fullName;
+
+    }
+}

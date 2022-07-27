@@ -1,0 +1,22 @@
+@isTest
+public class checkNumberTest {
+    
+    @isTest
+    public static void TestEvenNumber(){
+        
+        String result = checkNumber.evenNumber(12);
+        
+        System.assertEquals('Even Number', result);
+        
+    }
+    
+    @isTest
+    public static void TestOddNumber(){
+        
+        String result = checkNumber.evenNumber(89);
+        
+        System.assertEquals('Odd Number', result);
+        
+    }
+
+}

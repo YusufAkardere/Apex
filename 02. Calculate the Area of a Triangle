@@ -1,0 +1,7 @@
+public class ApexCodes {
+    
+    public static void Area(Integer height, Integer base){        
+    
+        Decimal area = (height * base)/2;        
+        System.debug('The area of the triangle is ' + area);        
+    }

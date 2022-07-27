@@ -1,0 +1,10 @@
+for (Integer i=1; i<=28; i++){
+    String DayinWords =Datetime.newInstance(2021, 2, i).format('EEEE');
+    
+    if (DayinWords=='Saturday' || DayinWords=='Sunday'){
+        continue;
+    }
+    
+    System.debug(DayinWords);
+    
+}

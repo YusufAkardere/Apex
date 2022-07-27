@@ -1,0 +1,11 @@
+@isTest
+public class ApexCodesTest {
+    @isTest
+    public static void fullNameTest(){
+        
+       String result = ApexCodes.fullName('Will', 'Smith');
+       
+        System.assertEquals('Full name is: Will Smith', result);
+    } 
+
+}
